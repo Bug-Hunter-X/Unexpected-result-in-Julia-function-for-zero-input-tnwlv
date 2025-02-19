@@ -1,0 +1,3 @@
+# Julia Function Bug
+This repository demonstrates a subtle bug in a Julia function that unexpectedly handles zero input.
+The function `myfunction` is designed to square positive numbers and return the negation of negative numbers. However, when passed zero, it returns zero, which may be unexpected behaviour depending on context.  The solution demonstrates a refined version ensuring zero is handled appropriately, if necessary.
